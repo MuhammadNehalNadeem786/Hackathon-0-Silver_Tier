@@ -1,0 +1,18 @@
+{
+  "name": "linkedin-auto-poster",
+  "version": "0.1.0",
+  "tier": "silver",
+  "enabled": true,
+  "check_interval_seconds": 300,
+  "max_posts_per_day": 3,
+  "requires_approval": true,
+  "credentials_env": "LINKEDIN_EMAIL",
+  "playwright_headless": true,
+  "browser": "chromium",
+  "content_templates": {
+    "business_update": "Share weekly business progress and achievements",
+    "thought_leadership": "Share insights about AI automation and digital FTEs",
+    "sales_post": "Promote services and generate leads"
+  },
+  "hashtags": ["#AIAutomation", "#DigitalFTE", "#ClaudeCode", "#AgentFactory", "#Panaversity"]
+}

@@ -1,0 +1,231 @@
+# ==============================================================================
+# ENVIRONMENT VARIABLES & SECRETS
+# Prevent .env files and environment configurations from being committed
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ==============================================================================
+# CREDENTIALS & SECRET FILES
+# Block all files that typically contain sensitive authentication data
+# ==============================================================================
+credentials.json
+secrets.yml
+secrets.yaml
+secrets.json
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+
+# Files containing sensitive words (passwords, tokens, keys, etc.)
+*secret*
+*secret*.*
+*key*
+*key*.*
+*token*
+*token*.*
+*password*
+*password*.*
+*credential*
+*credential*.*
+*private*
+*private*.*
+
+# ==============================================================================
+# LOG FILES
+# Prevent log files from cluttering the repository
+# ==============================================================================
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ==============================================================================
+# OS & LOCAL IDE FILES
+# Ignore operating system and IDE-specific files
+# ==============================================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ==============================================================================
+# DEPENDENCY DIRECTORIES
+# Don't commit installed dependencies - they can be regenerated
+# ==============================================================================
+
+# Node.js
+node_modules/
+bower_components/
+jspm_packages/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.hypothesis/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ruby
+vendor/
+.bundle/
+
+# PHP
+vendor/
+
+# Java
+target/
+*.war
+*.ear
+*.class
+
+# ==============================================================================
+# BUILD ARTIFACTS & OUTPUT DIRECTORIES
+# Compiled and distribution files that should be built locally
+# ==============================================================================
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+*.jar
+*.war
+*.ear
+*.class
+*.msi
+
+# ==============================================================================
+# BACKUP & TEMPORARY FILES
+# Temporary files that shouldn't be tracked
+# ==============================================================================
+*.tmp
+*.bak
+*.temp
+*.cache
+*.orig
+*.swo
+*.swp
+*.swn
+*.sinf
+
+# ==============================================================================
+# DOCKER & KUBERNETES SECRETS
+# Docker and containerization secrets
+# ==============================================================================
+docker-compose.override.yml
+.docker/
+*.docker secrets/
+kubernetes/secrets.yml
+kubernetes/secrets.yaml
+*.p12
+*.pfx
+
+# ==============================================================================
+# BROWSER & AUTOMATION DATA
+# Browser automation sessions and cached data
+# ==============================================================================
+.selenium/
+.playwright/
+*.chromium/
+*.firefox/
+*.webkit/
+
+# ==============================================================================
+# AI EMPLOYEE SPECIFIC
+# Local AI employee data that shouldn't be synced
+# ==============================================================================
+# Session data (browser automation, logged-in states)
+.linkedin_session/
+.whatsapp_session/
+.sessions/
+
+# Local state files that may contain personal data
+*.sqlite
+*.db
+*.db-journal
+
+# ==============================================================================
+# PYTHON & SCRIPTS
+# Generated Python files and script artifacts
+# ==============================================================================
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.eggs/
+
+# ==============================================================================
+# CREDENTIALS & AUTH (Specific to this project)
+# OAuth and service authentication files
+# ==============================================================================
+gmail_token.json
+token*.json
+auth*.json
+*.pickle
+session*.json
+
+# ==============================================================================
+# END OF GITIGNORE
+# Remember: When in doubt, don't commit it. If it's sensitive, ignore it.
+# ==============================================================================

@@ -1,0 +1,11 @@
+{
+  "name": "gmail-watcher",
+  "version": "0.1.0",
+  "tier": "silver",
+  "enabled": true,
+  "check_interval_seconds": 120,
+  "max_emails_per_check": 10,
+  "credentials_env": "GMAIL_CREDENTIALS_PATH",
+  "priority_detection": ["urgent", "important", "asap", "invoice", "payment"],
+  "processed_ids_log": "gmail_processed_ids.txt"
+}

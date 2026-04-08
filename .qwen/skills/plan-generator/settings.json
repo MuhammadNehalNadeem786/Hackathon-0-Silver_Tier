@@ -1,0 +1,12 @@
+{
+  "name": "plan-generator",
+  "version": "0.1.0",
+  "tier": "silver",
+  "enabled": true,
+  "auto_generate": true,
+  "plan_prefix": "PLAN_",
+  "include_checkboxes": true,
+  "ai_agent": "qwen",
+  "plan_folder": "AI_Employee_Vault/Plans/",
+  "required_sections": ["Objective", "Steps", "Notes"]
+}

@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "8a68aa27d729b6eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b9014b7d46e1f25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85d72cdf1b1a21f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "83f26360ccc4a64a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec285326b274a94a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "967e6fe01a7be4c4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "dffaec9037aef58e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "61297e4a8d9e27cb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1b413ba07bfc3172",
+    "type": "split",
+    "children": [
+      {
+        "id": "88b005e7a8a838ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "934fa9df20dea438",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Business_Goals.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Business_Goals"
+            }
+          },
+          {
+            "id": "290296b7680134b7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Business_Goals.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Business_Goals"
+            }
+          },
+          {
+            "id": "14c8910a6392674d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "782b57282985ec88",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d54987ee89bdb0b6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Business_Goals.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Business_Goals"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "967e6fe01a7be4c4",
+  "lastOpenFiles": [
+    "Done/APPROVAL_email_send_20260408_005251_March_by_the_numbers__245_user_growth.md",
+    "Done/EMAIL_19d6980766f7df93_March by the numbers_ 📈 245_ user growth.md",
+    "Approved/APPROVAL_email_send_20260408_005251_March_by_the_numbers__245_user_growth.md",
+    "Rejected/APPROVAL_email_send_20260408_005251_Muhammad_your_posts_got_13_impressions_l.md",
+    "Rejected/APPROVAL_email_send_20260408_005250_Muhammad_improve_your_profile_by_adding.md",
+    "Pending_Approval/APPROVAL_email_send_20260408_005251_March_by_the_numbers__245_user_growth.md",
+    "Plans/PLAN_EMAIL_19d6980766f7df93_March by the numbers_ 📈 245_ user growth_20260408_005251.md",
+    "Processing/EMAIL_19d6980766f7df93_March by the numbers_ 📈 245_ user growth.md",
+    "Pending_Approval/APPROVAL_email_send_20260408_005251_Muhammad_your_posts_got_13_impressions_l.md",
+    "Plans/PLAN_EMAIL_19d66dd9b2e48bd3_Muhammad_ your posts got 13 impressions last week_20260408_005251.md",
+    "Processing/EMAIL_19d66dd9b2e48bd3_Muhammad_ your posts got 13 impressions last week.md",
+    "Pending_Approval/APPROVAL_email_send_20260408_005250_Muhammad_improve_your_profile_by_adding.md",
+    "Plans/PLAN_EMAIL_19d666fbeff32fcd_Muhammad_ improve your profile by adding a positio_20260408_005250.md",
+    "Processing/EMAIL_19d666fbeff32fcd_Muhammad_ improve your profile by adding a positio.md",
+    "Needs_Action/EMAIL_19d666fbeff32fcd_Muhammad_ improve your profile by adding a positio.md",
+    "Needs_Action/EMAIL_19d66dd9b2e48bd3_Muhammad_ your posts got 13 impressions last week.md",
+    "Needs_Action/EMAIL_19d6980766f7df93_March by the numbers_ 📈 245_ user growth.md",
+    "Done/APPROVAL_email_send_20260407_003639_2026_Trend_Autonomous_Digital_Workers_73.md",
+    "Done/EMAIL_19d6449aef95be70_2026 Trend_ Autonomous Digital Workers (73_ of tas.md",
+    "Approved/APPROVAL_email_send_20260407_003639_2026_Trend_Autonomous_Digital_Workers_73.md",
+    "Logs/2026-04-07.json",
+    "Pending_Approval/APPROVAL_email_send_20260407_003639_2026_Trend_Autonomous_Digital_Workers_73.md",
+    "Plans/PLAN_EMAIL_19d6449aef95be70_2026 Trend_ Autonomous Digital Workers (73_ of tas_20260407_003639.md",
+    "Processing/EMAIL_19d6449aef95be70_2026 Trend_ Autonomous Digital Workers (73_ of tas.md",
+    "Logs/orchestrator_2026-04-07.log",
+    "Needs_Action/EMAIL_19d6449aef95be70_2026 Trend_ Autonomous Digital Workers (73_ of tas.md",
+    "Logs/watcher_2026-04-07.log",
+    "Done/meo.md",
+    "Plans/PLAN_meo_20260403_203650.md",
+    "Logs/2026-04-03.json",
+    "Logs/orchestrator_2026-04-02.log",
+    "Logs/watcher_2026-04-02.log",
+    "Logs/2026-04-02.json",
+    "Logs/2026-04-01.json",
+    "Logs/orchestrator_2026-04-01.log",
+    "Logs/watcher_2026-04-01.log"
+  ]
+}

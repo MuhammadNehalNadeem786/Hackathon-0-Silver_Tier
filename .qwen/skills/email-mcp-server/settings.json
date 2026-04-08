@@ -1,0 +1,12 @@
+{
+  "name": "email-mcp-server",
+  "version": "0.1.0",
+  "tier": "silver",
+  "enabled": true,
+  "mcp_command": "python",
+  "mcp_args": ["scripte/email_mcp_server.py"],
+  "max_emails_per_hour": 20,
+  "dry_run_default": true,
+  "credentials_env": "GMAIL_CREDENTIALS_PATH",
+  "capabilities": ["send_email", "draft_email", "search_emails", "reply_email"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "whatsapp-watcher",
+  "version": "0.1.0",
+  "tier": "silver",
+  "enabled": true,
+  "check_interval_seconds": 30,
+  "keywords": ["urgent", "asap", "invoice", "payment", "help"],
+  "session_path_env": "WHATSAPP_SESSION_PATH",
+  "playwright_headless": true,
+  "browser": "chromium"
+}

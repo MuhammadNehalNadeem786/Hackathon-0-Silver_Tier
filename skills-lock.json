@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "skills": {
+    "browsing-with-playwright": {
+      "source": "bilalmk/todo_correct",
+      "sourceType": "github",
+      "computedHash": "f73daf75e38650c202e61f652a26578db157f8423e8bcf283bcd93b441641461"
+    },
+    "gmail-watcher": {
+      "source": "local",
+      "sourceType": "silver-tier",
+      "path": ".qwen/skills/gmail-watcher/",
+      "installed": "2026-04-03",
+      "tier": "silver",
+      "script": "scripte/gmail_watcher.py",
+      "description": "Monitors Gmail for unread/important emails"
+    },
+    "whatsapp-watcher": {
+      "source": "local",
+      "sourceType": "silver-tier",
+      "path": ".qwen/skills/whatsapp-watcher/",
+      "installed": "2026-04-03",
+      "tier": "silver",
+      "script": "scripte/whatsapp_watcher.py",
+      "description": "Monitors WhatsApp Web for keyword messages"
+    },
+    "email-mcp-server": {
+      "source": "local",
+      "sourceType": "silver-tier",
+      "path": ".qwen/skills/email-mcp-server/",
+      "installed": "2026-04-03",
+      "tier": "silver",
+      "script": "scripte/email_mcp_server.py",
+      "description": "MCP server for sending/drafting/searching emails"
+    },
+    "linkedin-auto-poster": {
+      "source": "local",
+      "sourceType": "silver-tier",
+      "path": ".qwen/skills/linkedin-auto-poster/",
+      "installed": "2026-04-03",
+      "tier": "silver",
+      "script": "scripte/linkedin_poster.py",
+      "description": "Auto-posts to LinkedIn with HITL approval"
+    },
+    "plan-generator": {
+      "source": "local",
+      "sourceType": "silver-tier",
+      "path": ".qwen/skills/plan-generator/",
+      "installed": "2026-04-03",
+      "tier": "silver",
+      "script": "N/A (built into orchestrator)",
+      "description": "Generates execution plans for complex tasks"
+    },
+    "human-in-the-loop-approval": {
+      "source": "local",
+      "sourceType": "silver-tier",
+      "path": ".qwen/skills/human-in-the-loop-approval/",
+      "installed": "2026-04-03",
+      "tier": "silver",
+      "script": "scripte/approval_manager.py",
+      "description": "Manages approval workflow for sensitive actions"
+    },
+    "windows-task-scheduler": {
+      "source": "local",
+      "sourceType": "silver-tier",
+      "path": ".qwen/skills/windows-task-scheduler/",
+      "installed": "2026-04-03",
+      "tier": "silver",
+      "script": "N/A (Windows system integration)",
+      "description": "Schedules daily briefings and periodic tasks"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "human-in-the-loop-approval",
+  "version": "0.1.0",
+  "tier": "silver",
+  "enabled": true,
+  "auto_approve_thresholds": {
+    "email": "known contacts only",
+    "payment": 0,
+    "social_post": "draft only"
+  },
+  "approval_timeout_hours": 24,
+  "approval_folder": "AI_Employee_Vault/Pending_Approval/",
+  "approved_folder": "AI_Employee_Vault/Approved/",
+  "rejected_folder": "AI_Employee_Vault/Rejected/",
+  "log_rejections": true
+}

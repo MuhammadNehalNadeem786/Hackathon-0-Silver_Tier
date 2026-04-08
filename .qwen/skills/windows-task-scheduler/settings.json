@@ -1,0 +1,37 @@
+{
+  "name": "windows-task-scheduler",
+  "version": "0.1.0",
+  "tier": "silver",
+  "enabled": true,
+  "scheduled_tasks": [
+    {
+      "name": "Daily Briefing",
+      "trigger": "Daily at 8:00 AM",
+      "command": "python",
+      "args": ["orchestrator.py", "--vault", "PATH", "--briefing"],
+      "working_directory": "scripte/"
+    },
+    {
+      "name": "Process Inbox",
+      "trigger": "Every hour",
+      "command": "python",
+      "args": ["orchestrator.py", "--vault", "PATH", "--process"],
+      "working_directory": "scripte/"
+    },
+    {
+      "name": "LinkedIn Post",
+      "trigger": "Daily at 9:00 AM",
+      "command": "python",
+      "args": ["orchestrator.py", "--vault", "PATH", "--linkedin"],
+      "working_directory": "scripte/"
+    },
+    {
+      "name": "Weekly Audit",
+      "trigger": "Sunday at 10:00 PM",
+      "command": "python",
+      "args": ["orchestrator.py", "--vault", "PATH", "--audit"],
+      "working_directory": "scripte/"
+    }
+  ],
+  "output_folder": "AI_Employee_Vault/Briefings/"
+}
